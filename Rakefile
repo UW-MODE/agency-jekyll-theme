@@ -1,7 +1,7 @@
 require "tmpdir"
 
 source_branch = "source"
-production_branch = "master"
+production_branch = "gh-pages"
 
 desc "Deploy _site/ to #{production_branch} branch"
 task :deploy do
